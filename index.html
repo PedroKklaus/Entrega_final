@@ -1,72 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Whitespace_prova</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen and (min-width: 802px)" href="./css/fullscreen.css" />
+  <link rel="stylesheet" media="screen and (max-width: 800px)" href="./css/tablet.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css" />
+  <title>Document</title>
 </head>
 <body>
-    <section class = "pagina">
+  <header class="header">
+    <div class="logo-text">
+      <img src="./images/Group.png" alt="" class="logo">
+      <h2 class="text-logo">whitepace</h2>
+    </div>
 
-    <header>
-        <h1 id = "titulopagina">whitespace</h1>
-        <img id ="logoimg" src = "../img/logo1.png">
-    </header>
-        <nav>
-            <a id="produtos" href = "">Products</a> 
-            <a id="solutions" href = "">Solutions</a> 
-            <a id="resources" href = "">Resources</a> 
-            <a id="pricing" href = "">Pricing</a> 
-            <a id="login" href = "">Login</a> 
-            <a id="whitespace" href ="">Try Whitespace free</a> 
-        </nav>
-            <h2 id="texto2">
-                Get More Done with whitepace
-                <p id = "paragrafo2">
-                    Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
-                </p>
-            </h2>
+    <div class="lista_itens">
+      <ul class="ul-header">
+        <li class="li-header">Products <span class="mdi mdi-chevron-down"></span></li>
+        <li class="li-header">Solutions <span class="mdi mdi-chevron-down"></span></li>
+        <li class="li-header">Resources <span class="mdi mdi-chevron-down"></span></li>
+        <li class="li-header">Pricing <span class="mdi mdi-chevron-down"></span></li>
+      </ul>
+    </div>
 
-        <button id="botao">Try Whitepace free</button>
+    <img src="./images/menu .png" alt="" class="menu-lateral">
+    <button class="button-login-header">Login</button>
+    <button class="button-free-header">Try Whitepace free <span class="mdi mdi-arrow-right-thin"></span></button>
+  </header>
 
-    </section>
-    <section class="pagina2"> 
-        <img  id = "imagempag22" src="../img/Work Together Image.png" width="415px" height="364">
-    </section>
-    <header>
-        <h1 id = "pag2texto">Work together</h1>
-        <p id = "paragrafo2texto"> With whitepace, share your notes with your colleagues and collaborate on them.<br>
-            You can also publish a note to the internet and share the URL with others.</p>
-    </header>
-    <button id = "botaopagina2">Try it now</button>
-    <section class = "pagina3">
-        <footer>
+  <section class="section-title">
+    <h1>Get More Done with whitepace</h1>
+    <p>Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks</p><br>
+    <button class="button-free-section">Try Whitepace free <span class="mdi mdi-arrow-right-thin"></span></button>
+  </section>
+  <section class="section-image">
+    <img src="./images/Work Together Image.png" alt="" class="image2">
+    <div class="div-image">
+      <h1>Work Together</h1>
+      <p>With whitepace, share your notes with your colleagues and collaborate on them.
+        You can also publish a note to the internet and share the URL with others.
+      </p><br>
+      <button class="button-free-section">Try it Now <span class="mdi mdi-arrow-right-thin"></span></button>
+    </div>
+    <img src="./images/Work Together Image.png" alt="" class="image22">
+  </section>
 
-            <div class="footer">
-                <div class="boxterms">Terms & privacy</div>
-
-            <div class="boxsecurity">Security</div>
-
-            <div class="boxstatus">Status</div>
-
-            <div class="box2021">©2021 Whitepace LLC.</div>
-            
-                <div class="social">
-                    <img src = "../img/Facebook.png"></a>
-                </div>
-                    <div class="social2">
-                        <img src = "../img/Twitter.png"></a>
-                    </div>
-                    <div class="social3">
-                        <img src = "../img/Linkedin.png"></a>
-                    </div>
-            
-            
-        </footer>
-        </section>
-
+  <footer>
+    <div>
+      <ul class="ul-footer">
+        <li class="li-footer">Terms & privacy</li>
+        <li class="li-footer">Security</li>
+        <li class="li-footer">Status</li>
+        <li class="li-footer">&copy; 2021 Whitepace LLc.</li>
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div>
+      <ul class="ul-medias">
+        <li class="li-footer"><span class="mdi mdi-facebook"></span></li>
+        <li class="li-footer"><span class="mdi mdi-instagram"></span></li>
+        <li class="li-footer"><span class="mdi mdi-linkedin"></span></li>
+      </ul>
+    </div>
+  </footer>
 
 </body>
 </html>
